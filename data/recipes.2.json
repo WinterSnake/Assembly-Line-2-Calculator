@@ -1,0 +1,472 @@
+{
+  "aluminium": {
+    "machine": "starter1"
+  },
+  "copper": {
+    "machine": "starter1"
+  },
+  "diamond": {
+    "machine": "starter1"
+  },
+  "gold": {
+    "machine": "starter1"
+  },
+  "iron": {
+    "machine": "starter1"
+  },
+  "aluminium_wire": {
+    "machine": "wire",
+    "inputs": {
+      "aluminium": 1
+    }
+  },
+  "copper_wire": {
+    "machine": "wire",
+    "inputs": {
+      "copper": 1
+    }
+  },
+  "diamond_wire": {
+    "machine": "wire",
+    "inputs": {
+      "diamond": 1
+    }
+  },
+  "gold_wire": {
+    "machine": "wire",
+    "inputs": {
+      "gold": 1
+    }
+  },
+  "iron_wire": {
+    "machine": "wire",
+    "inputs": {
+      "iron": 1
+    }
+  },
+  "aluminium_cable": {
+    "machine": "cable",
+    "inputs": {
+      "aluminium_wire": 3
+    }
+  },
+  "copper_cable": {
+    "machine": "cable",
+    "inputs": {
+      "copper_wire": 3
+    }
+  },
+  "diamond_cable": {
+    "machine": "cable",
+    "inputs": {
+      "diamond_wire": 3
+    }
+  },
+  "gold_cable": {
+    "machine": "cable",
+    "inputs": {
+      "gold_wire": 3
+    }
+  },
+  "iron_cable": {
+    "machine": "cable",
+    "inputs": {
+      "iron_wire": 3
+    }
+  },
+  "aluminium_gear": {
+    "machine": "cutter",
+    "inputs": {
+      "aluminium": 1
+    }
+  },
+  "copper_gear": {
+    "machine": "cutter",
+    "inputs": {
+      "copper": 1
+    }
+  },
+  "diamond_gear": {
+    "machine": "cutter",
+    "inputs": {
+      "diamond": 1
+    }
+  },
+  "gold_gear": {
+    "machine": "cutter",
+    "inputs": {
+      "gold": 1
+    }
+  },
+  "iron_gear": {
+    "machine": "cutter",
+    "inputs": {
+      "iron": 1
+    }
+  },
+  "aluminium_liquid": {
+    "machine": "furnace",
+    "inputs": {
+      "aluminium": 1
+    }
+  },
+  "copper_liquid": {
+    "machine": "furnace",
+    "inputs": {
+      "copper": 1
+    }
+  },
+  "diamond_liquid": {
+    "machine": "furnace",
+    "inputs": {
+      "diamond": 1
+    }
+  },
+  "gold_liquid": {
+    "machine": "furnace",
+    "inputs": {
+      "gold": 1
+    }
+  },
+  "iron_liquid": {
+    "machine": "furnace",
+    "inputs": {
+      "iron": 1
+    }
+  },
+  "aluminium_plate": {
+    "machine": "press",
+    "inputs": {
+      "aluminium": 1
+    }
+  },
+  "copper_plate": {
+    "machine": "press",
+    "inputs": {
+      "copper": 1
+    }
+  },
+  "diamond_plate": {
+    "machine": "press",
+    "inputs": {
+      "diamond": 1
+    }
+  },
+  "gold_plate": {
+    "machine": "press",
+    "inputs": {
+      "gold": 1
+    }
+  },
+  "iron_plate": {
+    "machine": "press",
+    "inputs": {
+      "iron": 1
+    }
+  },
+  "plutonium": {
+    "machine": "starter2"
+  },
+  "uranium": {
+    "machine": "starter2"
+  },
+  "battery": {
+    "machine": "crafter1",
+    "inputs": {
+      "copper": 1,
+      "copper_liquid": 1
+    }
+  },
+  "circuit": {
+    "machine": "crafter1",
+    "inputs": {
+      "gold": 1,
+      "copper_wire": 1
+    }
+  },
+  "electric_board": {
+    "machine": "crafter1",
+    "inputs": {
+      "aluminium": 1,
+      "copper_wire": 1
+    }
+  },
+  "engine": {
+    "machine": "crafter1",
+    "inputs": {
+      "iron": 1,
+      "iron_gear": 1
+    }
+  },
+  "heater_plate": {
+    "machine": "crafter1",
+    "inputs": {
+      "aluminium": 1,
+      "iron_wire": 1
+    }
+  },
+  "solar_cell": {
+    "machine": "crafter1",
+    "inputs": {
+      "gold": 1,
+      "diamond_liquid": 1
+    }
+  },
+  "server_rack": {
+    "machine": "crafter1",
+    "inputs": {
+      "aluminium": 1,
+      "iron": 1
+    }
+  },
+  "fan": {
+    "machine": "crafter2",
+    "inputs": {
+      "aluminium": 6,
+      "diamond_gear": 3,
+      "circuit": 1
+    }
+  },
+  "power_supply": {
+    "machine": "crafter2",
+    "inputs": {
+      "diamond": 6,
+      "aluminium_liquid": 3,
+      "circuit": 1
+    }
+  },
+  "processor": {
+    "machine": "crafter2",
+    "inputs": {
+      "gold_liquid": 3,
+      "diamond_wire": 3,
+      "circuit": 1
+    }
+  },
+  "solar_panel": {
+    "machine": "crafter2",
+    "inputs": {
+      "circuit": 1,
+      "electric_board": 2,
+      "solar_cell": 2
+    }
+  },
+  "advanced_engine": {
+    "machine": "crafter2",
+    "inputs": {
+      "diamond": 10,
+      "circuit": 5,
+      "engine": 5
+    }
+  },
+  "computer": {
+    "machine": "crafter2",
+    "inputs": {
+      "processor": 1,
+      "power_supply": 1,
+      "fan": 1
+    }
+  },
+  "laser": {
+    "machine": "crafter2",
+    "inputs": {
+      "iron_liquid": 5,
+      "battery": 5,
+      "heater_plate": 5
+    }
+  },
+  "super_computer": {
+    "machine": "crafter3",
+    "inputs": {
+      "gold_cable": 3,
+      "circuit": 3,
+      "server_rack": 1,
+      "computer": 2
+    }
+  },
+  "ai_processor": {
+    "machine": "crafter3",
+    "inputs": {
+      "copper_plate": 6,
+      "copper_cable": 4,
+      "circuit": 10,
+      "super_computer": 1
+    }
+  },
+  "electric_engine": {
+    "machine": "crafter3",
+    "inputs": {
+      "iron_plate": 5,
+      "battery": 2,
+      "electric_board": 2,
+      "advanced_engine": 2
+    }
+  },
+  "robot_arms": {
+    "machine": "crafter3",
+    "inputs": {
+      "iron": 8,
+      "aluminium_plate": 2,
+      "aluminium_cable": 3,
+      "laser": 2
+    }
+  },
+  "robot_body": {
+    "machine": "crafter3",
+    "inputs": {
+      "electric_board": 5,
+      "solar_panel": 2,
+      "electric_engine": 1,
+      "robot_arms": 1
+    }
+  },
+  "robot_head": {
+    "machine": "crafter3",
+    "inputs": {
+      "gold_plate": 5,
+      "diamond_cable": 10,
+      "circuit": 10,
+      "ai_processor": 1
+    }
+  },
+  "robot": {
+    "machine": "crafter3",
+    "inputs": {
+      "iron_plate": 10,
+      "diamond_cable": 5,
+      "robot_body": 1,
+      "robot_head": 1
+    }
+  },
+  "plutonium_cell": {
+    "machine": "crafter4",
+    "inputs": {
+      "plutonium": 2,
+      "diamond_liquid": 2,
+      "copper_cable": 2,
+      "gold_cable": 2,
+      "solar_cell": 2
+    }
+  },
+  "plutonium_circuit": {
+    "machine": "crafter4",
+    "inputs": {
+      "copper": 5,
+      "plutonium": 4,
+      "diamond_wire": 2,
+      "gold_cable": 1,
+      "circuit": 5
+    }
+  },
+  "uranium_cell": {
+    "machine": "crafter4",
+    "inputs": {
+      "uranium": 2,
+      "diamond_liquid": 2,
+      "copper_cable": 2,
+      "gold_cable": 2,
+      "solar_cell": 2
+    }
+  },
+  "uranium_circuit": {
+    "machine": "crafter4",
+    "inputs": {
+      "copper": 5,
+      "uranium": 4,
+      "diamond_wire": 2,
+      "gold_cable": 1,
+      "circuit": 5
+    }
+  },
+  "explosive": {
+    "machine": "crafter3",
+    "inputs": {
+      "diamond_wire": 10,
+      "copper_cable": 10,
+      "circuit": 5,
+      "heater_plate": 10
+    }
+  },
+  "trigger": {
+    "machine": "crafter3",
+    "inputs": {
+      "iron": 40,
+      "diamond_wire": 10,
+      "circuit": 5,
+      "electric_board": 5
+    }
+  },
+  "ignition_system": {
+    "machine": "crafter3",
+    "inputs": {
+      "battery": 2,
+      "ai_processor": 2,
+      "trigger": 2,
+      "explosive": 5
+    }
+  },
+  "nuclear_cell": {
+    "machine": "crafter4",
+    "inputs": {
+      "electric_board": 3,
+      "heater_plate": 3,
+      "solar_cell": 3,
+      "plutonium_cell": 1,
+      "uranium_cell": 1
+    }
+  },
+  "nuclear_circuit": {
+    "machine": "crafter4",
+    "inputs": {
+      "gold_cable": 3,
+      "circuit": 3,
+      "processor": 3,
+      "plutonium_circuit": 1,
+      "uranium_circuit": 1
+    }
+  },
+  "nuclear_core": {
+    "machine": "crafter5",
+    "inputs": {
+      "diamond_cable": 4,
+      "gold_cable": 4,
+      "processor": 10,
+      "plutonium_cell": 1,
+      "uranium_cell": 1,
+      "nuclear_cell": 1
+    }
+  },
+  "nuclear_processor": {
+    "machine": "crafter5",
+    "inputs": {
+      "diamond_plate": 10,
+      "processor": 5,
+      "ai_processor": 1,
+      "plutonium_circuit": 1,
+      "uranium_circuit": 1,
+      "nuclear_circuit": 1
+    }
+  },
+  "atomic_bomb": {
+    "machine": "crafter5",
+    "inputs": {
+      "plutonium": 15,
+      "uranium": 15,
+      "ignition_system": 1,
+      "nuclear_cell": 1,
+      "nuclear_processor": 1,
+      "nuclear_core": 1
+    }
+  },
+  "bomber": {
+    "machine": "crafter5",
+    "inputs": {
+      "ai_processor": 2,
+      "robot": 1,
+      "nuclear_cell": 3,
+      "nuclear_processor": 1,
+      "nuclear_circuit": 3,
+      "atomic_bomb": 1
+    }
+  }
+}
